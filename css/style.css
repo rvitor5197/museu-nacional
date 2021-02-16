@@ -60,12 +60,11 @@ nav ul li a:hover {
     border-bottom: 1px solid #535858;
 }
 
-/*Formatação principal*/
+/*Formatação principal articles e sections*/
 
 #conteudo {
     width: 710px;
     float: left;
-    background: green;
 }
 
 aside {
@@ -79,6 +78,13 @@ section#visita {
     background: #cdc8b1;
     padding: 10px 27px 27px 27px;
     margin-top: 10px;
+}
+
+h3 {
+    color: #227115;
+    font-size: 1.0em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
 }
 
 h4 {
@@ -103,6 +109,30 @@ section#galeria a {
 section#galeria img {
     margin-left: 2px;
     margin-top: 3px;
+}
+
+article#video {
+    float: left;
+    width: 310px;
+    margin-left: 25px;
+}
+
+article#mapa {
+    float: left;
+    width: 310px;
+    margin-left: 37px;
+}
+
+article#exposicoes {
+    float: left;
+    width: 310px;
+    margin: 15px 0 0 25px;
+}
+
+article#historia {
+    float: left;
+    width: 310px;
+    margin: 15px 0 0 37px;
 }
 
 /*Fomatar form*/
